@@ -57,7 +57,21 @@ R-Squared (R
 
 Feature Importance: The model identified Filter Cutoff Frequency as the primary driver of successful tremor suppression .
 
+
+
+Technical Stack
+
+Language: Python 3.x 
+
+Libraries: NumPy, SciPy (Signal Processing), Matplotlib, Seaborn (Visualization) 
+
+Data Management: SQLite3 (SQL Database), Pandas (Data Manipulation) 
+
+Machine Learning: Scikit-Learn (Random Forest Regression)
+
+
 Key Results
+
 Efficiency: Successfully reduced simulated tremor interference by over 90% in standard configurations.
 
 Precision: Developed a predictive model with a margin of error of only 0.17%.
