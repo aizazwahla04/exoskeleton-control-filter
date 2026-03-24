@@ -1,9 +1,15 @@
 **Adaptive Tremor Signal Filtering using Machine Learning**
+## Project Overview
 
-This project implements a machine-learning–assisted adaptive filtering framework for suppressing simulated tremor noise in biomedical motion signals. The system automatically predicts an optimal low-pass filter cutoff frequency based on tremor characteristics, outperforming traditional static filtering approaches.
+This project implements a machine-learning-based adaptive filtering system designed to separate voluntary motion from tremor signals in simulated biomedical movement data.In wearable robotics and assistive exoskeleton systems, tremor suppression requires distinguishing intended motion from high-frequency involuntary oscillations in real time. Instead of using a fixed filter cutoff frequency, this project trains a regression model to predict the optimal cutoff dynamically based on tremor characteristics such as frequency and amplitude. The resulting pipeline simulates the signal-processing decision layer of an adaptive tremor-suppression controller that could be used in rehabilitation devices, prosthetic stabilization systems, or upper-limb assistive exoskeletons.
 
-The pipeline combines signal simulation, optimization-based label generation, SQL dataset logging, regression modeling, and statistical validation to demonstrate adaptive controller design in a reproducible workflow.
+The pipeline combines signal simulation, optimization-based label generation, SQL dataset logging, regression modeling, and statistical validation to demonstrate adaptive controller design in a reproducible workflow. This project explores whether a machine learning model can predict optimal filtering parameters automatically and improve motion reconstruction accuracy compared to static filtering approaches
 
+**Motivation**
+
+Physiological tremor typically occurs at higher frequencies than voluntary human motion. Traditional filtering methods rely on fixed cutoff frequencies, which cannot adapt to changes in tremor severity across users or conditions.
+
+This project explores whether a machine learning model can predict optimal filtering parameters automatically and improve motion reconstruction accuracy compared to static filtering approaches.
 **Project Motivation**
 
 Tremor noise commonly affects biomedical signals such as:
