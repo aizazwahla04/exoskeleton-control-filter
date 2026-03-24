@@ -4,8 +4,6 @@ This project implements a machine-learning–assisted adaptive filtering framewo
 
 The pipeline combines signal simulation, optimization-based label generation, SQL dataset logging, regression modeling, and statistical validation to demonstrate adaptive controller design in a reproducible workflow.
 
-⸻
-
 **Project Motivation**
 
 Tremor noise commonly affects biomedical signals such as:
@@ -144,15 +142,6 @@ database integration
 statistical hypothesis testing
 simulation-based dataset generation
 performance evaluation workflows
-
-**Project Structure**
-
-adaptive-tremor-filtering
-│
-├── tremor_filter.ipynb
-├── tremor_sessions.db
-├── README.md
-
 
 **Author**
 
