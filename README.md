@@ -28,21 +28,7 @@ Can machine learning automatically select an optimal filter cutoff frequency for
 **Project Pipeline**
 
 The workflow follows a research-style signal processing architecture:
-Signal simulation
-      ↓
-Optimal cutoff search via RMSE minimization
-      ↓
-5000 simulation trials stored in SQL database
-      ↓
-Dataset extraction from stored sessions
-      ↓
-Regression model training
-      ↓
-Adaptive cutoff prediction
-      ↓
-Static vs adaptive filtering comparison
-      ↓
-Statistical significance validation
+Signal simulation -> Optimal cutoff search via RMSE minimization -> 5000 simulation trials stored in SQL database -> Dataset extraction from stored sessions -> Regression model training -> Adaptive cutoff prediction -> Static vs adaptive filtering comparison -> Statistical significance validation
 
 **Signal Model**
 
@@ -89,6 +75,7 @@ tremor frequency
 optimal cutoff
 
 Total stored simulations: 5000 trials
+
 This makes the dataset persistent and reproducible across runs.
 RMSE after filtering
 
