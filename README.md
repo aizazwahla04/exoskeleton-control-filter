@@ -131,15 +131,7 @@ are plotted together for comparison.
 
 **Architecture diagram**
 
-   Sensor signal
-          ↓
- ML cutoff predictor
-          ↓
-  Adaptive filter
-          ↓
-   Tremor estimate
-          ↓
-Potential actuator suppression signal
+   Sensor signal -> ML cutoff predictor -> Adaptive filter -> Tremor estimate -> Potential actuator suppression signal
 
 **Technologies Used**
 Python
